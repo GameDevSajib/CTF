@@ -1,3 +1,10 @@
+
+BISMILLAH
+Collected by:Md Sajibur Rahman
+Dept of Computer Science & Engineering(CSE)
+University of Barishal(BU)
+online CTF judge: pico ctf 
+
 ///image cracking
 exiftool,binwalk,strings
 
