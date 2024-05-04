@@ -16,6 +16,20 @@ echo "cGljb0NURnt0aGVfbTN0YWRhdGFfMXNfbW9kaWZpZWR9"|base64 -d
 decode="灩捯䍔䙻ㄶ形楴獟楮獴㌴摟潦弸彤㔲挶戹㍽"
 print(decode.encode('utf-16-be'))
 
+///reverse engineering( picoctf problem --->>keygenme-py)
+soln:
+ctrl +alt+t and type  python3.Tere will open >>>
+
+import hashlib
+hash=hashlib.sha256(b'FRASER').hexdigest()
+print(hash)
+hash[4]+hash[5]+hash[3]+hash[6]+hash[2]+hash[7]+hash[1]+hash[8]
+
+
+
+
+
+
 
 
 
